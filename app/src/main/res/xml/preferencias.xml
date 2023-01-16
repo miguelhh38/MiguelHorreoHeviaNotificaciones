@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="CATEGORIA 1">
+        <CheckBoxPreference
+            android:key="clave1"
+            android:title="UNICO SISTEMA OPERATIVO"
+            android:summary="Selecciona si es unico sistema operativo"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="CATEGORIA 2">
+
+        <ListPreference
+            android:key="clave2"
+            android:title="SISTEMA OPERATIVO"
+            android:summary="Selecciona el sistema operativo"
+            android:dialogTitle="SISTEMA OPERATIVO"
+            android:entries="@array/lista"
+            android:entryValues="@array/clavelista" />
+
+        <EditTextPreference
+            android:key="clave3"
+            android:title="VERSION DEL SISTEMA"
+            android:summary="Introduce la versión del sistema"
+            android:dialogTitle="INTRODUCE VERSIÓN"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

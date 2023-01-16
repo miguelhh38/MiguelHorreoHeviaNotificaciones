@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MiguelHorreoHeviaNotificaciones</string>
+    <string name="channel_name">Nombre del canal</string>
+    <string name="channel_description">Descripcion del canal</string>
+
+    <string-array name="lista">
+        <item>WINDOWS</item>
+        <item>LINUX</item>
+        <item>IOS</item>
+    </string-array>
+    <string-array name="clavelista">
+        <item>sis1</item>
+        <item>sis2</item>
+        <item>sis3</item>
+    </string-array>
+</resources>
